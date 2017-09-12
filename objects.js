@@ -1,11 +1,11 @@
 var playlist = {"Taylor Swift": "Shake It Off"};
 
-function updatePlaylist(playlist, artistName, songTitle) {
-    playlist.artistName = songTitle;
-    return playlist;
+function updatePlaylist(list, artistName, songTitle) {
+    list.artistName = songTitle;
+    return list;
 }
 
-function removeFromPlaylist(playlist, artistName) {
-    delete playlist.artistName;
-    return playlist;
+function removeFromPlaylist(list, artistName) {
+    delete list.artistName;
+    return list;
 }
